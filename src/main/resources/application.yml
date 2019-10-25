@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    url: jdbc:mysql://${dl_mysql_host:localhost}:${dl_mysql_port:3306}/${dl_mysql_dbname:myneboot}?useUnicode=true&characterEncoding=UTF8&allowMultiQueries=true
+    username: ${dl_mysql_username:root}
+    password: ${dl_mysql_password:root}
+    driver-class-name: com.mysql.jdbc.Driver
